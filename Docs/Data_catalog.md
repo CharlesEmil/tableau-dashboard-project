@@ -48,7 +48,7 @@ The data sets are  structured to support analytical and reporting use cases. It 
 | City             | STRING        | City                                                                                          |
 | State            | STRING        | State of the city                                                                             |
 | Region           | STRING        | Region of the country (ex, South )                                                            |
-| Country          | STRING        | Country                                                                                       |
+| Country/Region   | STRING        | Country                                                                                       |
 
 ---
 
