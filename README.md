@@ -24,6 +24,8 @@ The purpose of the sales dashboard is to present an overview of sales metrics an
 - Display the average weekly values.
 - Highlight weeks that are above and below the average to draw attention to sales & profit performance.
 
+![darty sales dashboard](https://github.com/user-attachments/assets/bbd42bea-84a4-4e0a-b9d8-cb8be6b930c5)
+
 # Customer Dashboard | Requirements
 
 ## Dashboard Purpose
@@ -50,4 +52,5 @@ The customer dashboard aims to provide an overview of customer data, trends, and
     - Current profit
     - Last order date
 
+![Darty customer dashboard gif](https://github.com/user-attachments/assets/4b3fe6fa-972d-44d8-bd28-dc964b1381dc)
 
