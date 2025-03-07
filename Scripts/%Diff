@@ -1,0 +1,56 @@
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+These are the formulas i used to calculate the % difference of : %Diff Customers, %Diff Orders, %Diff Profit, %Diff Quantity, %Diff Sales, %Diff Sales per Customers|
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+======================================================================================
+
+%Diff Customers
+
+Formula
+
+(COUNTD([CY Customers]) - COUNTD([PY Customers])) / COUNTD([PY Customers])
+
+======================================================================================
+
+%Diff Orders
+
+Formula
+
+(COUNTD([CY Orders]) - COUNTD([PY Orders])) / COUNTD([PY Orders])
+
+======================================================================================
+
+%Diff Profit
+
+Formula
+
+(SUM([CY Profit])-SUM([PY Profit ]))/SUM([PY Profit ])
+
+======================================================================================
+
+%Diff Quantity
+
+Formula
+
+(SUM([CY Quantity])-SUM([PY Quantity ]))/SUM([PY Quantity ])
+
+======================================================================================
+
+%Diff Sales
+
+Formula
+
+(SUM([CY Sales])-SUM([PY Sales ]))/SUM([PY Sales ])
+
+======================================================================================
+
+%Diff Sales per Customers
+
+Formula
+
+([CY Sales per Customer] - [PY Sales per Customer]) / [PY Sales per Customer]
+
+======================================================================================
+
+
