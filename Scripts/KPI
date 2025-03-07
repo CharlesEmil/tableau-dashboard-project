@@ -1,0 +1,38 @@
+
+-------------------------------------------------------------------------------------------------------------
+These are the formulas i used to calculate the different KPI: KPI CY Less PY, KPI Profit Avg, KPI Sales Avg |
+-------------------------------------------------------------------------------------------------------------
+
+=======================================================
+
+KPI CY Less PY
+
+Formula
+
+IF SUM([CY Sales])< SUM([PY Sales ]) THEN '⬤'
+ELSE''
+END
+
+=======================================================
+
+KPI Profit Avg 
+
+Formula
+
+IF SUM([CY Profit])>WINDOW_AVG(SUM([CY Profit]))
+THEN'above'
+ELSE'below'
+END
+
+=======================================================
+
+KPI Sales Avg
+
+Formula
+
+IF SUM([CY Sales])>WINDOW_AVG(SUM([CY Sales]))
+THEN'above'
+ELSE'below'
+END
+
+=======================================================
