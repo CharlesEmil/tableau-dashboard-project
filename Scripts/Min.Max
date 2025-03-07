@@ -1,0 +1,79 @@
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+These are the formulas i used to calculate the Min/Max: %Diff Customers, %Diff Orders, %Diff Profit, %Diff Quantity, %Diff Sales, %Diff Sales per Customers|
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+===========================================================================
+
+Min/Max Customers
+
+Formula
+
+IF COUNTD([CY Customers]) = WINDOW_MAX(COUNTD([CY Customers]))
+THEN COUNTD([CY Customers])
+ELSEIF COUNTD([CY Customers]) = WINDOW_MIN(COUNTD([CY Customers]))
+THEN COUNTD([CY Customers])
+END
+
+===========================================================================
+
+Min/Max Orders
+
+Formula
+
+IF COUNTD([CY Orders]) = WINDOW_MAX(COUNTD([CY Orders]))
+THEN COUNTD([CY Orders])
+ELSEIF COUNTD([CY Orders]) = WINDOW_MIN(COUNTD([CY Orders]))
+THEN COUNTD([CY Orders])
+END
+
+===========================================================================
+
+Min/Max Profit
+
+Formula
+
+IF SUM([CY Profit]) = WINDOW_MAX(SUM([CY Profit]))
+THEN SUM([CY Profit])
+ELSEIF SUM([CY Profit])= WINDOW_MIN(SUM([CY Profit]))
+THEN SUM([CY Profit])
+END
+
+===========================================================================
+
+Min/Max Quantity
+
+Formula
+
+IF SUM([CY Quantity]) = WINDOW_MAX(SUM([CY Quantity]))
+THEN SUM([CY Quantity])
+ELSEIF SUM([CY Quantity])= WINDOW_MIN(SUM([CY Quantity]))
+THEN SUM([CY Quantity])
+END
+
+===========================================================================
+
+Min/Max Sales
+
+Formula
+
+IF SUM([CY Sales]) = WINDOW_MAX(SUM([CY Sales]))
+THEN SUM([CY Sales])
+ELSEIF SUM([CY Sales])= WINDOW_MIN(SUM([CY Sales]))
+THEN SUM([CY Sales])
+END
+
+===========================================================================
+
+Min/Max Sales per Customers
+
+Formula
+
+IF [CY Sales per Customer] = WINDOW_MAX([CY Sales per Customer])
+THEN [CY Sales per Customer] 
+ELSEIF [CY Sales per Customer] = WINDOW_MIN([CY Sales per Customer])
+THEN [CY Sales per Customer]
+END
+
+===========================================================================
