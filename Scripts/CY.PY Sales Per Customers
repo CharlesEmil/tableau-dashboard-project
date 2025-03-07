@@ -1,0 +1,22 @@
+
+-----------------------------------------------------------------------------------------------------------------------------
+These are the CurrentYear/PreviousYear sales per Customer calculation I used : CY Sales per Customer, PY Sales per Customer |
+-----------------------------------------------------------------------------------------------------------------------------
+
+===================================================
+
+CY Sales per Customer
+
+Formula
+
+SUM([CY Sales]) / COUNTD([CY Customers])
+
+===================================================
+
+PY Sales per Customer
+
+Formula
+
+SUM([PY Sales ]) / COUNTD([PY Customers])
+
+===================================================
