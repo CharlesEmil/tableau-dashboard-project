@@ -54,3 +54,8 @@ The customer dashboard aims to provide an overview of customer data, trends, and
 
 ![Darty customer dashboard gif](https://github.com/user-attachments/assets/4b3fe6fa-972d-44d8-bd28-dc964b1381dc)
 
+## Get the Dashboard
+You can find it online on [Tableau Public](https://public.tableau.com/app/profile/charles.emil.fouche/viz/DartySalesCustomersDashboard/SalesDashboard) or by downloading it [here](https://github.com/CharlesEmil/tableau-dashboard-project/blob/main/Docs/Darty%20Sales%20%26%20Customers%20Dashboard.twbx) by cliking "view raw"
+
+
+
