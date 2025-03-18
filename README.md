@@ -57,5 +57,17 @@ The customer dashboard aims to provide an overview of customer data, trends, and
 ## Get the Dashboard
 You can find it online on [Tableau Public](https://public.tableau.com/app/profile/charles.emil.fouche/viz/DartySalesCustomersDashboard/SalesDashboard) or by downloading it [here](https://github.com/CharlesEmil/tableau-dashboard-project/blob/main/Docs/Darty%20Sales%20%26%20Customers%20Dashboard.twbx) by cliking "view raw"
 
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 🌟 About Me
+
+Hey there I'm **Charles-emil Fouché** ! Curently working as Sales Man. I’m on a mission to transition from Sales Man to  Data Analyst !
+
+Let's stay in touch! Feel free to connect with me:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/charles-emil-fouche/)
+
 
 
